@@ -1,0 +1,19 @@
+@media (max-width:992px){
+    .menu-icon{
+        display: block;
+    }
+    .nav-item{
+        position: absolute;
+        background-color: var(--main-color);
+        top: 38px;
+        width: 80%;
+        left: -100%;
+        display: flex;
+        flex-direction: column;
+        transition: all 0.42s ease-in;
+        height: 100vh;
+    }
+    .nav-item.show{
+        left: 0;
+    }
+}
